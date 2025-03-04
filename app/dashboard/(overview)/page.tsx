@@ -15,14 +15,6 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  // const teamId = "team_Yew3SNVeMnXPd55do7YfGR3D";
-  // const result = await fetch(`https://api.vercel.com/v2/user`, {
-  //   method: "GET",
-  //   headers: {
-  //     Authorization: `Bearer ${process.env.VERCEL_ACCESS_TOKEN}`,
-  //   },
-  // });
-
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
